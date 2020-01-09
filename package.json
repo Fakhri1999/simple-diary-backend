@@ -1,0 +1,33 @@
+{
+  "name": "simple-diary",
+  "version": "1.0.0",
+  "description": "A simple diary apps for filling my spare time. This apps divided into 2 part, back-end and front-end.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fakhri1999/simple-diary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fakhri1999/simple-diary/issues"
+  },
+  "homepage": "https://github.com/Fakhri1999/simple-diary#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.20.4",
+    "moment": "^2.24.0",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
